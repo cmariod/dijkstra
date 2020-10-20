@@ -1,12 +1,4 @@
-[![Latest Stable Version](https://poser.pugx.org/fisharebest/algorithm/v/stable.svg)](https://packagist.org/packages/fisharebest/algorithm)
-[![Build Status](https://travis-ci.org/fisharebest/algorithm.svg)](https://travis-ci.org/fisharebest/algorithm)
-[![Coverage Status](https://coveralls.io/repos/fisharebest/algorithm/badge.svg?branch=master)](https://coveralls.io/r/fisharebest/algorithm?branch=master)
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/4997a2c6-fb22-433e-92c5-ae7285f1a5a0/mini.png)](https://insight.sensiolabs.com/projects/4997a2c6-fb22-433e-92c5-ae7285f1a5a0)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/fisharebest/algorithm/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/fisharebest/algorithm/?branch=master)
-[![StyleCI](https://github.styleci.io/repos/30823747/shield)](https://github.styleci.io/repos/30823747)
-[![Code Climate](https://codeclimate.com/github/fisharebest/algorithm/badges/gpa.svg)](https://codeclimate.com/github/fisharebest/algorithm)
-
-# fisharebest/algorithm
+# cmariod/dijkstra
 
 General purpose algorithms in PHP
 
@@ -19,7 +11,7 @@ General purpose algorithms in PHP
 Install using composer.
 
 ```
-composer require fisharebest/algorithm
+composer require cmariod/dijkstra
 ```
 
 
@@ -57,7 +49,7 @@ $graph = array(
   'G' => array(),
 );
 
-$algorithm = new \Fisharebest\Algorithm\Dijkstra($graph);
+$algorithm = new \Cmariod\Dijkstra\Dijkstra($graph);
 
 // There can be zero, one or more shortest (i.e. same total cost) paths.
 
@@ -132,7 +124,7 @@ $graph = array(
 	'F' => array('A' => 1, 'B' => 1),
 );
 
-$algorithm  = new \Fisharebest\Algorithm\ConnectedComponent($graph);
+$algorithm  = new \Cmariod\Dijkstra\ConnectedComponent($graph);
 $components = $algorithm->findConnectedComponents());
 // array(
 //  1 => array('A', 'B', 'D', 'F'),

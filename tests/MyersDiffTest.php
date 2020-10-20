@@ -1,8 +1,9 @@
 <?php
 
-namespace Fisharebest\Algorithm;
+namespace Cmariod\Dijkstra;
 
 /**
+ * maintained by Mario Dinata <cmariod@gmail.com>
  * @author    Greg Roach <greg@subaqua.co.uk>
  * @copyright (c) 2015 Greg Roach <greg@subaqua.co.uk>
  * @license   GPL-3.0+

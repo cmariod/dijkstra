@@ -1,20 +1,17 @@
 {
-	"name": "fisharebest/algorithm",
-	"description": "Implementation of standard algorithms in PHP.",
+	"name": "cmariod/dijkstra",
+	"description": "Implementation of dijkstra related algorithms in PHP.",
 	"type": "library",
 	"keywords": [
 		"algorithm", "dijkstra", "myers", "diff"
 	],
-	"homepage": "https://github.com/fisharebest/algorithm",
+	"homepage": "https://github.com/cmariod/dijkstra",
 	"license": "GPL-3.0+",
 	"authors": [{
-			"name": "Greg Roach",
-			"email": "greg@subaqua.co.uk",
+			"name": "Mario Dinata",
+			"email": "cmariod@gmail.com",
 			"role": "Developer"
 	}],
-	"support": {
-			"issues": "https://github.com/fisharebest/algorithm/issues"
-	},
 	"require": {
 		"php": ">=5.3.0"
 	},
@@ -24,7 +21,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Fisharebest\\Algorithm\\": "src/"
+			"Cmariod\\Dijkstra\\": "src/"
 		}
 	},
 	"scripts": {
